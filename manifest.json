@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Gistify - AI Summarizer & Notes Generator",
+    "version": "2.0",
+    "description": "Summarize & generate notes from selected text using AI",
+    "permissions": ["contextMenus", "scripting", "activeTab"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "commands": {
+        "summarize_text": {
+            "suggested_key": {
+                "default": "Alt+Shift+S"
+            },
+            "description": "Summarize selected text with Gistify"
+        },
+        "generate_notes": {
+            "suggested_key": {
+                "default": "Alt+Shift+N"
+            },
+            "description": "Generate notes from selected text with Gistify"
+        }
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "host_permissions": ["<all_urls>"]
+}

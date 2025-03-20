@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gistify - Recent Summaries & Notes</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            padding: 20px; 
+            background-color: #f4f4f9; 
+            color: #333;
+            width: 320px; 
+            height: auto;
+        }
+        .container {
+            max-width: 350px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo-container img {
+            width: 40px;
+            height: 40px;
+        }
+        h1 {
+            color: #222;
+            font-size: 22px;
+            margin: 5px 0;
+        }
+        .tagline {
+            font-size: 14px;
+            color: #555;
+            margin-top: 5px;
+        }
+        h2 {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            background: #007bff;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .shortcut-info {
+            margin-top: 20px;
+            padding: 10px;
+            background: #e0f2ff;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #333;
+            text-align: left;
+        }
+        .shortcut-info strong {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="icon.png" alt="Gistify Icon">
+            <h1>Gistify</h1>
+            <p class="tagline">Summarize. Simplify. Gistify.</p>
+        </div>
+        
+        <h2>Check out your recent summaries and notes</h2>
+        <button id="summariesBtn">View Summaries</button>
+        <button id="notesBtn">View Notes</button>
+
+        <div class="shortcut-info">
+            <p><strong>We made it simple for you:</strong></p>
+            <p>➤ Summarize: <strong>Alt + Shift + S</strong></p>
+            <p>➤ Generate Notes: <strong>Alt + Shift + N</strong></p>
+        </div>
+    </div>
+
+    <script src="index.js" defer></script> 
+</body>
+</html>
