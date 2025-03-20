@@ -1,5 +1,5 @@
  async function fetchSummary(text) {
-    const API_KEY = "AIzaSyDq98O50m-ZZ0rmYI-Enm05yaso4oq9enk"; 
+    const API_KEY =  ""; /* Replace with Gemini API key from GoogleStudio*/  
     try {
         const response = await fetch(
             `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`,
