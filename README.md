@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/ilakkiyan-j/Gistify/blob/main/icon.png" alt="Gistify Logo" width="50" style="vertical-align: middle; margin-right: 10px;">
+  <img src="https://github.com/ilakkiyan-j/Gistify/blob/main/icon.png" alt="Gistify Logo" width="25" style="vertical-align: middle; margin-right: 10px;">
   Gistify – AI Summarizer and Notes Generator 🚀
 </h1>
 
