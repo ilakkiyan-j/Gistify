@@ -19,8 +19,7 @@ Gistify is an **AI-powered Chrome extension** that creates **structured summarie
 - **Extension Framework:** Manifest V3  
 - **AI Processing:** Gemini API  
 
-## 🚀 Installation  
-1. **Clone the repository**  
+## 🔗 Clone this repository
    ```bash
    git clone https://github.com/yourusername/Gistify.git
    cd Gistify
