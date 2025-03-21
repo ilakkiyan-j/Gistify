@@ -1,4 +1,7 @@
-#   <p align="center" > <img src="https://github.com/ilakkiyan-j/Gistify/blob/main/icon.png" alt="Gistify Logo" width="50"> Gistify – AI Summarizer and Notes Generator 🚀  </p>
+<h1 align="center">
+  <img src="https://github.com/ilakkiyan-j/Gistify/blob/main/icon.png" alt="Gistify Logo" width="50" style="vertical-align: middle; margin-right: 10px;">
+  Gistify – AI Summarizer and Notes Generator 🚀
+</h1>
 
 Gistify is an **AI-powered Chrome extension** that creates **structured summaries** and **detailed study notes**, helping users efficiently **organize and retain information**. It also provides an option to **export notes as PDFs** for easy access and sharing.  
 
