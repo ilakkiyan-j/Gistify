@@ -12,7 +12,7 @@ Gistify is an **AI-powered Chrome extension** that creates **structured summarie
 ✅ **Right-Click & Keyboard Shortcuts** – Quick access via context menu and shortcuts.  
 
 ## 📺 Demo  
-🔗 **[Check out Gistify in Action](https://www.linkedin.com/posts/ilakkiyan-j_excited-to-share-gistify-ai-summarizer-activity-7308490510044647425-JgKF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEHRonUBc52UFbhgr9SKwmDdAV7xMsPCd2I)**  
+**[Check out Gistify in Action](https://www.linkedin.com/posts/ilakkiyan-j_excited-to-share-gistify-ai-summarizer-activity-7308490510044647425-JgKF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEHRonUBc52UFbhgr9SKwmDdAV7xMsPCd2I)**  
 
 ## 🛠 Tech Stack  
 - **Frontend:** HTML, CSS, JavaScript  
