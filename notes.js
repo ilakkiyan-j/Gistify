@@ -1,5 +1,11 @@
 async function fetchNotes(text) {
-    const API_KEY =  ""; /* Replace with Gemini API key from GoogleStudio*/  
+    let API_KEY = localStorage.getItem("apiKey");
+
+    if (!API_KEY) {
+        alert("API key is missing! Please update it in the Home section.");
+        return "Error: API key is missing!";
+    }
+
     try {
         const response = await fetch(
             `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`,
@@ -21,6 +27,7 @@ async function fetchNotes(text) {
         return "Error generating notes!";
     }
 }
+
 
 async function loadNotes() {
     const params = new URLSearchParams(window.location.search);
